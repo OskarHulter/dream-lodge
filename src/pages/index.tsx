@@ -6,6 +6,7 @@ import { Dashboard } from "@/components/dashboard";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { BigCalendar } from "../components/calendar/big-calendar";
+import { Whiteboard } from "../components/inputs/whiteboard";
 
 export default function Home() {
 	return (
@@ -25,6 +26,7 @@ export default function Home() {
 						<TabList>
 							<Tab>Home</Tab>
 							<Tab>Dashboard</Tab>
+							<Tab>Draw</Tab>
 							<Tab>Calendar</Tab>
 						</TabList>
 
@@ -68,6 +70,12 @@ export default function Home() {
 							<Dashboard />
 						</TabPanel>
 
+						<TabPanel>
+							<h2 className={styles.title}>
+								<span className={styles.pinkSpan}>Draw</span>
+							</h2>
+							<Whiteboard />
+						</TabPanel>
 						<TabPanel>
 							<h2 className={styles.title}>
 								<span className={styles.pinkSpan}>Calendar</span>

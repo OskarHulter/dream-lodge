@@ -3049,6 +3049,7 @@ __metadata:
     geist: "npm:1.3.0"
     kbar: "npm:0.1.0-beta.45"
     next: "npm:14.2.1"
+    nodejs-polars: "npm:0.13.0"
     react: "npm:18.3.0"
     react-big-calendar: "npm:1.13.0"
     react-content-loader: "npm:7.0.2"
@@ -5174,6 +5175,95 @@ __metadata:
     fetch-blob: "npm:^3.1.4"
     formdata-polyfill: "npm:^4.0.10"
   checksum: 10c0/f3d5e56190562221398c9f5750198b34cf6113aa304e34ee97c94fd300ec578b25b2c2906edba922050fce983338fde0d5d34fcb0fc3336ade5bd0e429ad7538
+  languageName: node
+  linkType: hard
+
+"nodejs-polars-android-arm64@npm:0.13.0":
+  version: 0.13.0
+  resolution: "nodejs-polars-android-arm64@npm:0.13.0"
+  conditions: os=android & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"nodejs-polars-darwin-arm64@npm:0.13.0":
+  version: 0.13.0
+  resolution: "nodejs-polars-darwin-arm64@npm:0.13.0"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"nodejs-polars-darwin-x64@npm:0.13.0":
+  version: 0.13.0
+  resolution: "nodejs-polars-darwin-x64@npm:0.13.0"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"nodejs-polars-linux-arm64-gnu@npm:0.13.0":
+  version: 0.13.0
+  resolution: "nodejs-polars-linux-arm64-gnu@npm:0.13.0"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"nodejs-polars-linux-arm64-musl@npm:0.13.0":
+  version: 0.13.0
+  resolution: "nodejs-polars-linux-arm64-musl@npm:0.13.0"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"nodejs-polars-linux-x64-gnu@npm:0.13.0":
+  version: 0.13.0
+  resolution: "nodejs-polars-linux-x64-gnu@npm:0.13.0"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"nodejs-polars-linux-x64-musl@npm:0.13.0":
+  version: 0.13.0
+  resolution: "nodejs-polars-linux-x64-musl@npm:0.13.0"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"nodejs-polars-win32-x64-msvc@npm:0.13.0":
+  version: 0.13.0
+  resolution: "nodejs-polars-win32-x64-msvc@npm:0.13.0"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"nodejs-polars@npm:0.13.0":
+  version: 0.13.0
+  resolution: "nodejs-polars@npm:0.13.0"
+  dependencies:
+    nodejs-polars-android-arm64: "npm:0.13.0"
+    nodejs-polars-darwin-arm64: "npm:0.13.0"
+    nodejs-polars-darwin-x64: "npm:0.13.0"
+    nodejs-polars-linux-arm64-gnu: "npm:0.13.0"
+    nodejs-polars-linux-arm64-musl: "npm:0.13.0"
+    nodejs-polars-linux-x64-gnu: "npm:0.13.0"
+    nodejs-polars-linux-x64-musl: "npm:0.13.0"
+    nodejs-polars-win32-x64-msvc: "npm:0.13.0"
+  dependenciesMeta:
+    nodejs-polars-android-arm64:
+      optional: true
+    nodejs-polars-darwin-arm64:
+      optional: true
+    nodejs-polars-darwin-x64:
+      optional: true
+    nodejs-polars-linux-arm64-gnu:
+      optional: true
+    nodejs-polars-linux-arm64-musl:
+      optional: true
+    nodejs-polars-linux-x64-gnu:
+      optional: true
+    nodejs-polars-linux-x64-musl:
+      optional: true
+    nodejs-polars-win32-x64-msvc:
+      optional: true
+  checksum: 10c0/082227e9f4a380d8082b964e691c691981604a530d87ec78f241890e20b3954628a1f1029861d4aed055ada1ad625048fcc7afc9619411ddd936527f3f66c162
   languageName: node
   linkType: hard
 
